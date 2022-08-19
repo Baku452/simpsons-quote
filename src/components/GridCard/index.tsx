@@ -37,7 +37,7 @@ export const GridCard = () => {
             {
                 isLoading ? 
                 <h1>Is Loading</h1> :
-                <div className={styles.grid}>
+                <div data-testid="listQuotes" className={styles.grid}>
                     {
                         data?.map((item, index) => 
                         (
